@@ -9,3 +9,9 @@ Check if firefox is currently running
 if both is no, the script creates a .7z file with password protection and place it on the specified location
 the script will keep the 4 most recent backups others will be deleted
 In case the backup could not be generated in the past 30 days it will create a pop up with a warning (probably just working for Ubuntu/popos)
+
+test the script (download, open location in terminal ./scriptname.sh
+if working add it to crontab -e
+
+disclaimer:
+personal use only, using/running on your own risk only
